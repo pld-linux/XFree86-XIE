@@ -1,0 +1,12 @@
+--- XFree86-XIE-4.3.0/xc/programs/Xserver/XIE/mixie/import/miregion.c.orig	2001-12-14 20:58:28.000000000 +0100
++++ XFree86-XIE-4.3.0/xc/programs/Xserver/XIE/mixie/import/miregion.c	2003-12-27 01:11:23.834977984 +0100
+@@ -127,8 +127,8 @@
+ 
+ #include <memory.h>
+ 
+-#include "miscstruct.h"
+ #include "regionstr.h"
++#include "miscstruct.h"
+ #include "Xprotostr.h"
+ #include "gc.h"
+ 
