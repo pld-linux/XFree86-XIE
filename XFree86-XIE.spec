@@ -70,7 +70,7 @@ Dokumentacja do rozszerzenia XIE.
 Summary:	XIE extension module
 Summary(pl):	Modu³ rozszerzenia XIE
 Group:		X11/XFree86
-%{requires_eq_to XFree86-modules XFree86-Xserver}
+%{requires_eq_to XFree86-modules XFree86-Xserver-devel}
 
 %description -n XFree86-module-XIE
 XIE (X Image Extension) extension module for X server.
