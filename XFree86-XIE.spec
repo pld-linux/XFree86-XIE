@@ -115,8 +115,8 @@ xmkmf
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_includedir}/X11/extensions
+
 install xc/include/extensions/{XIE,XIEproto,XIEprotost}.h \
 	$RPM_BUILD_ROOT%{_includedir}/X11/extensions
 
