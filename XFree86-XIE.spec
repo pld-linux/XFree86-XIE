@@ -13,6 +13,7 @@ Group:		X11/Libraries
 # xc/doc/specs/XIE
 # xc/doc/hardcopy/XIE
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	6ae53620997b77ebc7b0b6cac8d1a4a0
 URL:		http://www.xfree86.org/
 BuildRequires:	XFree86-Xserver-devel >= 4.3.0
 BuildRequires:	XFree86-devel >= 4.3.0
