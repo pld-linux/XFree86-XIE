@@ -34,7 +34,7 @@ Biblioteka rozszerzenia XIE (X Image Extension).
 Summary:	XIE extension headers
 Summary(pl):	Pliki nag³ówkowe rozszerzenia XIE
 Group:		X11/Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	XFree86-devel >= 4.3.0
 
 %description devel
@@ -47,7 +47,7 @@ Pliki nag³ówkowe rozszerzenia XIE.
 Summary:	XIE extension static library
 Summary(pl):	Statyczna biblioteka rozszerzenia XIE
 Group:		X11/Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 XIE extension static library.
@@ -58,7 +58,7 @@ Statyczna biblioteka rozszerzenia XIE.
 %package doc
 Summary:	XIE extension documentation
 Summary(pl):	Dokumentacja do rozszerzenia XIE
-Group:		X11/XFree86
+Group:		X11
 
 %description doc
 XIE extension documentation.
@@ -69,7 +69,7 @@ Dokumentacja do rozszerzenia XIE.
 %package -n XFree86-module-XIE
 Summary:	XIE extension module
 Summary(pl):	Modu³ rozszerzenia XIE
-Group:		X11/XFree86
+Group:		X11
 %{requires_eq_to XFree86-modules XFree86-Xserver-devel}
 
 %description -n XFree86-module-XIE
