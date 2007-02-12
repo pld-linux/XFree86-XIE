@@ -1,5 +1,5 @@
 Summary:	XIE extension library
-Summary(pl):	Biblioteka rozszerzenia XIE
+Summary(pl.UTF-8):   Biblioteka rozszerzenia XIE
 Name:		XFree86-XIE
 Version:	4.3.0
 Release:	1
@@ -27,12 +27,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XIE (X Image Extension) extension library.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka rozszerzenia XIE (X Image Extension).
 
 %package devel
 Summary:	XIE extension headers
-Summary(pl):	Pliki nag≥Ûwkowe rozszerzenia XIE
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe rozszerzenia XIE
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	XFree86-devel >= 4.3.0
@@ -40,43 +40,43 @@ Requires:	XFree86-devel >= 4.3.0
 %description devel
 XIE extension headers.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe rozszerzenia XIE.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe rozszerzenia XIE.
 
 %package static
 Summary:	XIE extension static library
-Summary(pl):	Statyczna biblioteka rozszerzenia XIE
+Summary(pl.UTF-8):   Statyczna biblioteka rozszerzenia XIE
 Group:		X11/Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 XIE extension static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka rozszerzenia XIE.
 
 %package doc
 Summary:	XIE extension documentation
-Summary(pl):	Dokumentacja do rozszerzenia XIE
+Summary(pl.UTF-8):   Dokumentacja do rozszerzenia XIE
 Group:		X11
 
 %description doc
 XIE extension documentation.
 
-%description doc -l pl
+%description doc -l pl.UTF-8
 Dokumentacja do rozszerzenia XIE.
 
 %package -n XFree86-module-XIE
 Summary:	XIE extension module
-Summary(pl):	Modu≥ rozszerzenia XIE
+Summary(pl.UTF-8):   Modu≈Ç rozszerzenia XIE
 Group:		X11
 %{requires_eq_to XFree86-modules XFree86-Xserver-devel}
 
 %description -n XFree86-module-XIE
 XIE (X Image Extension) extension module for X server.
 
-%description -n XFree86-module-XIE -l pl
-Modu≥ rozszerzenia XIE (X Image Extension) dla X serwera.
+%description -n XFree86-module-XIE -l pl.UTF-8
+Modu≈Ç rozszerzenia XIE (X Image Extension) dla X serwera.
 
 %prep
 %setup -q
